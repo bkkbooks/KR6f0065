@@ -1,0 +1,57 @@
+canonical_identifier: bkk:krp/KR6f0065/v1
+canonical_location: https://kanripo.org/bkk/KR6f0065/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 無量壽經義疏
+  identifiers:
+    alt_id:
+    - T37n1745
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T37/T37n1745.xml
+    old_id: T37n1745
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 卍續-CB
+  label: 卍續-CB
+  source_xml_id: wit1
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6f0065_000.yaml, hash: 'sha256:f2639bb744dc4c34cdf0eb7c4be6da674805a1da55585e008e4746dc386ded2e'}
+  - {seq: 1, filename: KR6f0065_001.yaml, hash: 'sha256:6e6b442c70625795055e4c3114e0d8c5d27dd958e383d2395e89a3b3c554c9f0'}
+  - {seq: 2, filename: KR6f0065_002.yaml, hash: 'sha256:9a7671f2c5fba034c59287fe489964825493302d19f8e81752aa0e53f08250cc'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6f0065_001.markers.yaml, hash: 'sha256:2b334415817f04336adebacae32902ccefcfb0bb10a57099a88d554f3ac2435e'}
+  - {seq: 2, role: markers, filename: assets/KR6f0065_002.markers.yaml, hash: 'sha256:954e3d76ef99d832231f770f49a176f4805fcecbd4f5bea43637e25e2d015703'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6f0065_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 19672
+  label: 無量壽經義疏上卷
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6f0065_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 17708
+  label: 無量壽經義疏下卷
+  type: juan
+  level: 1
+hash: sha256:89238e1fdc29f3d63e7f438212279c009f2c33e53ca064e069e62ab537401594
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
